@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.sidebar{
+    height: 100vh;
+    background-color: rgb(20, 29, 26);
+    width: 20%;
+}
+.sidecontent .item
+{padding: 20px;
+    font-size: 1.2rem;
+}
+.fa-solid{
+    margin-right: 10px;
+}
+.instastory .item img{
+    height: 70px;
+    width: 70px;
+    gap: 10px;
+    border-radius: 100%;
+    border: 2px solid yellow;
+    flex-direction: column;
+}
+.instastory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.instastory .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.post_section{
+    display: flex;
+    justify-items: center;
+    
+    align-items: center;
+}
