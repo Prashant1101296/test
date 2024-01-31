@@ -1,0 +1,40 @@
+/* h1{
+    background-color: blueviolet;
+    height: 300px;
+    padding: 20px;
+    display: inline;
+}
+span{
+    background-color: cadetblue;
+}
+body{
+    background-color: black;
+}
+p{
+    background-color: brown;
+    display: inline; */
+.box1{
+    height: 120px;
+    background-color: rgb(232, 216, 216);
+    display: inline;
+}
+.box2
+{
+    height: 120px;
+    background-color: blue;
+    display: block;
+}
+.box3{
+    height: 120px;
+    background-color: chartreuse;
+    display:inline-block
+}
+body{
+    background-color: black;
+}
+nav{
+    background-color: chocolate;
+}
+.box{
+    
+}
