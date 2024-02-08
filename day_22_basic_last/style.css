@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.nav_bar {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav_bar .brand_logo {}
+
+
+
+.nav_bar .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_bar .right .items {
+    padding: 20px;
+
+}
+
+.nav_bar .right .items:hover {
+    background-color: chartreuse;
+
+}
+
+
+#drop-down {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#drop-down:hover .drop_down{
+    display: block;
+}
+
+
+#drop-down .drop_down {
+    position: absolute;
+    top: 3.5rem;
+    background-color: chocolate;
+
+}
+
+#drop-down .drop_down .drop_down_items {
+    padding: 18px;
+    text-align: center;
+
+}
+#drop-down .drop_down .drop_down_items:hover{
+
+
+    background-color: cadetblue;
+}
+.drop_down{
+    display: none;
+}

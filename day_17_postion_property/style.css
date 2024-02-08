@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    color: white;
+}
+.box1
+{
+    background-color: blue;
+    height: 100px;
+    
+}
+.box2
+{
+    background-color: aqua;
+    height: 100px;
+    /* position: relative;
+    top: 30px; */
+}
+.box3
+{
+    background-color: brown;
+    height: 100px;
+}
+.inside_box{
+    height: 100px;
+    width: 100px;
+    background-color:magenta;
+    position: absolute;
+    top: 10px;
+    position: absolute;
+    top: 10px;
+    bottom: 6rem;
+    right: 4rem;
+    left: 4rem 
+    
+}
+.img{
+    position: relative;
+}
+.img img{
+    width: 500px;
+}
+.inside_img{
+
+    position: absolute;
+    right: 2rem;
+    bottom: 1rem;
+
+}
+.inside_img img{width: 100px;
+    height: 70px;
+    width: 70px;
+    border: 2px solid yellow;
+    border-radius: 100px;
+
+}

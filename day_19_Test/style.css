@@ -1,0 +1,43 @@
+body{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.nav_bar{
+    display: flex;
+    background-color: white;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+margin-top: 2rem;
+
+}
+.Nav_bar1{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    /* font-size: 3rem; */
+    color: blue;
+
+
+}
+.Nav_bar2{
+    display: flex;
+    gap: 2rem;
+    /* font-size: 16px; */
+    text-align: center;
+    
+    
+    
+}
+.fa-solid{
+    font-size: 20px;
+}
+#Search{
+    font-size: 1rem;
+    display: flex;
+}
+.box{
+    background-color: aqua;
+
+}
