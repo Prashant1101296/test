@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(28, 28, 34);
+    color: white;
+}
+.side_bar{
+    background-color: black;
+    height: 800px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:center ;
+    gap: 3rem;
+    font-size: 2rem;
+    position: fixed;
+
+    
+
+}
+.items{
+    padding:3px;
+
+}
+.items:hover{
+    background-color:lightblue;
+    
+
+
+}
+
+.channel{
+    background-color: blueviolet;
+    display: flex;
+    height:800px ;
+    width: 100px;
+
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content:center ;
+    gap: 1rem;
+    /* font-size: 2rem; */
+
+    
+}
+.channel .photos{
+    height: 100px;
+    width: 50px;
+}
